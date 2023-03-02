@@ -13,5 +13,3 @@
     No prior Knowledge required
 */
 
-//Getting Started with C# 10 and .NET 6
-
