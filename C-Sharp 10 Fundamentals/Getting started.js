@@ -85,10 +85,89 @@
                 - Different templates
 */
 
-//Demo: Creating Your First C# Project
+//Demo: Creating Your First C# Application
 /*
     Creating your first C# application
     Running the application
 */
 
 //Demo: Writing C# Code
+/*
+    - Writing C# code
+    - Fixing a syntax error
+
+    IntelliSence = is a code-completion tool that is built into the Visual Studio IDE. It is designed to help developers write code faster and with fewer errors by providing code completion, parameter info, and member lists based on context.
+    IntelliQuote = is a feature of the Visual Studio IDE that automatically inserts closing quotation marks, parentheses, brackets, and braces. It is designed to help developers write code faster and with fewer errors.
+*/
+
+//Demo: Exploring the Files in a C# Appplication
+/*
+    - Looking at the generated files
+         - Project
+         - Solution
+         - Executable file
+    - Executing our compiled application
+*/
+
+//Debugging Our Code
+/*
+    Introducing Breakpoints
+        - Breakpoints = are used to pause the execution of a program at a specific line of code. They are used to debug code.
+              - Pause the running code
+              - Inspect the state of the running application
+              - Step through the different lines of code
+*/
+
+//Demo: Debugging in Visual Studio 
+
+//Building Applications Using the CLI
+/*
+    - .NET CLI
+
+    Understanding the CLI
+        - CLI = Command Line Interface for .NET
+        - Cross-platform tools
+        - "dotnet" command with parameters
+    SDK = Software Development Kit
+
+    Creating a New Project
+        - dotnet new console -n "FirstProgram"
+    
+    - dotnet new = Create a new project
+    - dotnet build = Compile your application
+    - dotnet run = Execute your application
+*/
+
+//Demo: Building a C# Application Using the CLI
+/*
+    - Installing the required tools
+    - Creating an application using the CLI
+    - Editing code with VS Code
+    - Compiling using the CLI
+    - Running with VS Code and the CLI
+
+    dotnet new 
+    dotnet new console -n "HelloWorldFromCLI"
+        - go to the folder
+    dotnet build
+    dotnet run
+
+    The choice is yours!
+    No matter what platform, you can write C# applications!
+*/
+
+//Demo: Using the Docs
+/*
+    - Finding information in the docs
+*/
+
+//Summary
+/*
+    - C# is an object-oriented and type-safe language to write .NET applications
+    - C# is actively maintained
+    - C# can be used to build all types of .NET applications
+    - Applications can be created using
+        - Visual Studio
+        - CLI (combined with VS Code)
+*/
+
