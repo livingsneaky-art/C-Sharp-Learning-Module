@@ -54,3 +54,40 @@
 */
 
 // Hello C#
+/*
+    C# 
+    - is Main language for .NET development
+    - Object-oriented and type-safe programming language
+        Object-oriented programming = is a computer programming model that organizes software design around data, or objects, ranther than functions and logic.  
+            - Objects are the building blocks of C#
+        Object = can be defined as a data field that has unique attributes and behavior.
+
+    - Familiar for C, C++, Java and JS 
+*/
+
+//Setting up Your Environment
+/*
+    Building .NET Applications with C#
+        - Visual Studio 2022 Community Edition
+        - .NET CLI & Visual Studio Code
+            CLI = Command Line Interface
+    
+    Introducing Visual Studio 2022
+        Flagship IDE - Integrated Development Environment (IDE)
+*/
+
+//Building Your First C# Program Using Visual Studio
+/*
+    Using Projects
+        - Project = a collection of files that are related to each other
+                - Containers for code files
+                - Compiled into executable files (assembly)
+                - Different templates
+*/
+
+//Demo: Creating Your First C# Project
+/*
+    Creating your first C# application
+    Running the application
+    
+*/
