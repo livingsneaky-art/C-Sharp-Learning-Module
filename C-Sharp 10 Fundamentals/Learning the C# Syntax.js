@@ -110,3 +110,122 @@
 */
 
 //Demo: Creating Strings
+
+//C# Operators
+/*
+    Expressions in C#
+        - Arithmetic expressions;
+
+        int a, b, c;
+        a = 3;
+        b = 10;
+        c = a++;
+        b = a + b * c;
+    
+    Arithmetic Oerators = +, -, *, /, %, ++, --
+    Equality operators = ==, !=
+    Logical operators = &&, ||, !
+    Assignment operators = =, +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=
+
+    Compound Assignment Operators
+        int month = 3;
+        month = month + 1;
+        month  += 1;
+    
+    Operators Depend on the Type
+        string result1 = "a" + "b";
+        string result2 = "a" * "b"; //invalid
+*/
+
+//Demo: Using Operators in C#
+/*
+    - Using operators in C#
+    - Defult values for types in C#
+*/
+
+//Members On Primitive Types
+/*
+    int intMaxValue = int.MaxValue; //is a static property of the int class that returns the maximum value of an int.
+    int intMinValue = int.MinValue; //is a static property of the int class that returns the minimum value of an int.
+    double doubleMaxValue = double.MaxValue; //is a static property of the double class that returns the maximum value of a double.
+
+    Members of char Type
+    chat myChar = 'a'; //is a primitive type that represents a Unicode character.
+    bool isWhiteSpace = char.IsWhiteSpace(myChar); //is a static method of the char class that returns a boolean value indicating whether the specified character is white space.
+    bool isDigit = char.IsDigit(myChar); //is a static method of the char class that returns a boolean value indicating whether the specified character is a digit.
+    bool isPunctuation = char.IsPunctuation(myChar); //is a static method of the char class that returns a boolean value indicating whether the specified character is a punctuation mark.
+*/
+
+//Demo: Working with Members on Primitive Types
+
+//Using Date and Time in C#
+/*
+    Working with Dates
+        - DateTime = is a struct that represents a date and time.
+        - TimSpan = is a struct that represents a time interval.
+
+    Working with DateTime and DateOnly
+        DateTime employeeStartDate = new DateTime(2025, 03, 28);
+        DateTime today = DateTime.Today;
+        DateTime twoDaysLater = someDateTime.AddDays(2);
+        DaysOfWeek day = someDateTime.DayOfWeek;
+        bool isDST = someDateTime.IsDayLightSavingTime();
+*/
+
+//Demo: Working with DateTime
+
+//Converting Between Types
+/*
+    This Doesn't Work;
+        int a = 3;
+        a = "Hello world"; //invalid
+    Changing between Types
+        - Implicit conversion
+        - Casting Explicit conversion
+        - Helpers
+
+    Using an Implicit Cast
+        int a = 123456789;
+        long l = a; //implicit cast
+    
+    Performing an Explicit Cast
+        double d = 123456789.0;
+        int a = (int) d; //explicit cast
+    
+    Parsing = is a method that converts a string to a specified type.
+*/
+
+//Demo: Converting Between Types
+
+//Implicit Typing
+/*
+    So Far, We've Used Explicit Typing
+        Explicit Typing = is a feature of C# that allows you to declare variables by explicitly specifying their type.
+            int a = 123;
+            bool b = true;
+            double d = 11.0;
+        Implicit Typing = is a feature of C# that allows you to declare variables by implicitly specifying their type.
+            var a = 123; //a will be an integer
+            var b = true; //b will be a boolean
+            var d = 11.0; //d will be a double
+
+    Understanding Implicit Typing
+        - Type is infered = is a feature of C# that allows you to declare variables by implicitly specifying their type.
+        - Not always as readable
+        - Sometimes required (using LINQ)
+
+    This Won't Work...
+        var employeeAge; //invalid
+*/
+
+//Demo: Using var
+
+//Summary
+/*
+    - C# is a strongly typed language
+    - Contains build-in data types
+    - Conversion between types is supported
+
+    Up next:
+    Using decisions and iterations in C#
+*/
